@@ -3,14 +3,23 @@ Personal time scheduler about hunting jobs based on TimeScheduler project
 Written with Gulp,Jade and a JS Timeline Scheduler library.
 
 ### Command
-+ create a timeline
++ create a timeline        
+``
 gulp new -name "timeline-name"
+``
+
 generate json file based on module data.json(data/**.json)
-+ build 
++ build    
+``
 gulp build
+``
+
 generate the static web pages(dist/,dist/data,dist/js,dist/css,dist/index.html)
-+ server
-gulp serve
++ server    
+``
+gulp serve  
+``
+
 visit http://localhost:8000 if you want to see it hosted locally(make sure the port 8000 is not taken).
 
 ## Problem
