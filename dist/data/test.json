@@ -1,0 +1,101 @@
+{
+    "items": [
+        {
+            "events": [
+                {
+                    "label": "内推",
+                    "at": "2016-07-10",
+                    "classes": "item-event-recommend"
+                }
+            ],
+            "start": "2016-07-06",
+            "name": "内推",
+            "end": "2016-07-18",
+            "classes": "item-status-underway",
+            "sectionID": 0,
+            "id": 0
+        },
+        {
+            "events": [
+                {
+                    "label": "投递",
+                    "at": "2016-08-20",
+                    "classes": "item-event-submit"
+                }
+            ],
+            "start": "2016-08-06",
+            "name": "投递",
+            "end": "2016-09-18",
+            "classes": "item-status-underway",
+            "sectionID": 0,
+            "id": 0
+        },
+        {
+            "events": [
+                {
+                    "label": "投递",
+                    "at": "2016-08-16",
+                    "classes": "item-event-submit"
+                },
+                {
+                    "label": "笔试",
+                    "at": "2016-09-18 10:00:00",
+                    "classes": "item-event-examination"
+                },
+                {
+                    "label": "投递截至",
+                    "at": "2016-09-08",
+                    "classes": "item-event-submit-end"
+                }
+            ],
+            "start": "2016-08-06",
+            "name": "笔试",
+            "end": "2016-09-18 10:00:00",
+            "classes": "item-status-underway",
+            "sectionID": 1,
+            "id": 1
+        },
+        {
+            "events": [],
+            "start": "2016-09-01",
+            "name": "未投递",
+            "end": "2016-09-08",
+            "classes": "item-status-none",
+            "sectionID": 2,
+            "id": 2
+        },
+        {
+            "events": [
+                {
+                    "label": "内推",
+                    "at": "2016-08-16",
+                    "classes": "item-event-recommend"
+                }
+            ],
+            "start": "2016-08-01",
+            "name": "内推",
+            "end": "2016-08-20",
+            "classes": "item-status-underway",
+            "sectionID": 3,
+            "id": 3
+        }
+    ],
+    "sections": [
+        {
+            "id": 0,
+            "name": "百度"
+        },
+        {
+            "id": 1,
+            "name": "美团"
+        },
+        {
+            "id": 2,
+            "name": "腾讯"
+        },
+        {
+            "id": 3,
+            "name": "阿里"
+        }
+    ]
+}
