@@ -85,6 +85,7 @@ var Calendar = {
         TimeScheduler.Options.MaxHeight = 100;
 
         TimeScheduler.Init();
+		console.log("no");
     },
 
     GetSections: function (callback) {

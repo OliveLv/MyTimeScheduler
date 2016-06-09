@@ -5,67 +5,67 @@ body {
 .time-sch-item-event {
   border-width: 1px;
   border-style: solid;
-  width: 2px; }
+  width: 4px; }
 
 .item-event-submit-end {
   background-color: green;
-  border-color: #004d00; }
+  border-color: white; }
   .item-event-submit {
   background-color: green;
-  border-color: #004d00; }
+  border-color: white; }
    .item-event-recommend {
   background-color: green;
-  border-color: #004d00; }
+  border-color: white; }
 
 .item-event-examination {
-  background-color: #ff2222;
-  border-color: #ee0000; }
+  background-color: blue;
+  border-color: white; }
 
 .item-event-interview-one {
-  background-color: blue;
-  border-color: #3333ff; }
+  background-color: yellow;
+  border-color: white; }
 
 .item-event-interview-two {
   background-color: red;
-  border-color: #cc8400; }
+  border-color: white; }
   .item-event-interview-three {
   background-color: yellow;
-  border-color: #cc8400; }
+  border-color: white; }
   .item-event-offer {
   background-color: black;
-  border-color: #cc8400; }
+  border-color: white; }
 
 .item-status-none {
-  background-color: green; }
-
-.item-status-underway {
-  background-color: #ff2222; }
-
-.item-status-fail {
   background-color: blue; }
 
-.item-status-success {
+.item-status-underway {
   background-color: orange; }
+
+.item-status-fail {
+  background-color: #ff2222; }
+
+.item-status-success {
+  background-color: green; }
 
 .time-sch-item {
   transition: background-color ease 0.1s;
-  border-width: 1px;
+  border-width: 2px;
   border-style: solid; }
-  .time-sch-item.item-status-none {
+  .time-sch-item.item-status-success {
     border-color: #006700; }
-    .time-sch-item.item-status-none:hover {
+    .time-sch-item.item-status-success:hover {
       background-color: #00b300; }
-  .time-sch-item.item-status-one {
+  .time-sch-item.item-status-fail {
     border-color: #ff0808; }
-    .time-sch-item.item-status-one:hover {
+    .time-sch-item.item-status-fail:hover {
       background-color: #ff5555; }
-  .time-sch-item.item-status-two {
+  .time-sch-item.item-status-none {
     border-color: #0000e6; }
-    .time-sch-item.item-status-two:hover {
+    .time-sch-item.item-status-none:hover {
       background-color: #3333ff; }
-  .time-sch-item.item-status-three {
+  .time-sch-item.item-status-underway {
     border-color: #e69500; }
-    .time-sch-item.item-status-three:hover {
+    .time-sch-item.item-status-underway:hover {
       background-color: #ffb733; }
   .time-sch-item.ui-draggable-dragging {
     cursor: move; }
