@@ -1,8 +1,0 @@
-http://stackoverflow.com/questions/27313107/gulp-using-gulp-jade-with-gulp-data
-http://blog.csdn.net/wangxiaohu__/article/details/7254598
-http://cnodejs.org/topic/51a469f23e53f45b7316324c
-http://www.cnblogs.com/2050/p/4198792.html
-http://www.thinksaas.cn/ask/question/22767/
-http://cnodejs.org/topic/53e1a8e9a3df2b8f3101835b
-http://gold.xitu.io/entry/55c8dbb160b22a3ebdf34d57
-http://stackoverflow.com/questions/8437295/jade-template-how-to-pass-concrete-object-to-pages
