@@ -21,7 +21,7 @@ gulp serve
 ``
 
 visit http://localhost:8000 if you want to see it hosted locally(make sure the port 8000 is not taken).    
-+ deploy
++ deploy    
 ``
 gulp deploy
 ``
