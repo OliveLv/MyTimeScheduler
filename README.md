@@ -24,7 +24,8 @@ visit http://localhost:8000 if you want to see it hosted locally(make sure the p
 + deploy    
 ``
 gulp deploy
-``
+``    
+
 deploy file dist/ to github gh-pages(remember to config github's global e-mail and username).
 
 
