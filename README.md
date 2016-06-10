@@ -20,7 +20,7 @@ generate the static web pages(dist/,dist/data,dist/js,dist/css,dist/index.html).
 gulp serve  
 ``
 
-visit http://localhost:8000 if you want to see it hosted locally(make sure the port 8000 is not taken).
+visit http://localhost:8000 if you want to see it hosted locally(make sure the port 8000 is not taken).    
 +deploy
 ``
 gulp deploy
