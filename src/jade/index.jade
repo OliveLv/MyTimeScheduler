@@ -18,7 +18,7 @@ html
 			Calendar.Sections=!{JSON.stringify(sections)};
 			var items=!{JSON.stringify(items)};
 			for(var i=0;i<items.length;i++){
-				items[i].end=moment(items[i].end);
+				items[i].end=moment(items[i].end).add('hours',2);
 				items[i].start=moment(items[i].start);
 				for(var j=0;j<items[i].events.length;j++){
 					items[i].events[j].at=moment(items[i].events[j].at);

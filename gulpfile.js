@@ -39,13 +39,11 @@ function readJson(file, dict) {
 		data.name = maxName;
 		if (time_max(max, data.finish) < 0)
 			max = data.finish;
-		else {
-			data.events.push({
-				"label" : "投递截至",
-				"at" : new Date(data.finish).format("yyyy-MM-dd hh:mm:ss"),
-				"classes" : 'item-event-submit-end'
-			});
-		}
+		data.events.push({
+			"label" : "投递截至",
+			"at" : new Date(data.finish).format("yyyy-MM-dd hh:mm:ss"),
+			"classes" : 'item-event-submit-end'
+		});
 		data.end = new Date(max).format("yyyy-MM-dd hh:mm:ss");
 	}
 	data.classes = 'item-status-' + dict.item_status[data.name];
