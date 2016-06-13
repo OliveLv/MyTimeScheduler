@@ -84,6 +84,7 @@ function mergeJson(path) {
 	};
 	var files = fs.readdirSync(path);
 	var idx = 0;
+	var ans=0;
 	files.forEach(function (file) {
 		var pathname = path + '/' + file;
 		var json = readJson(pathname, dict);
@@ -97,7 +98,8 @@ function mergeJson(path) {
 			});
 		}
 		json.sectionID = id;
-		json.id = id;
+		json.id = ans;
+		ans++;
 		delete json.company;
 		res.items.push(json);
 	});
