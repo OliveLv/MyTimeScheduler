@@ -597,7 +597,7 @@ var TimeScheduler = {
                             $(document.createElement('div'))
                                 .addClass('time-sch-item-event ' + (event.classes ? event.classes : ''))
                                 .css('left', eventDiff + '%')
-                                .attr('title', event.at.format(TimeScheduler.Options.LowerFormat) + ' - ' + event.label)
+                                .attr('title', event.at.format(TimeScheduler.Options.LowerFormat) + ' - ' + event.label+' - '+event.type)
                                 .data('event', event)
 								.appendTo(itemContent);
                                 //.appendTo(itemElem);

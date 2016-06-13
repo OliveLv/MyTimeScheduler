@@ -176,6 +176,12 @@ var Calendar = {
 		html += '   <div>';
         html += '       状态: ' + item.name;
         html += '   </div>';
+		html += '   <div>';
+        html += '       岗位: ' + item.job;
+        html += '   </div>';
+		html += '   <div>';
+        html += '       地点: ' + item.workplace;
+        html += '   </div>';
         html += '   <div>';
         html += '       开始: ' + item.start.format('YYYY-MM-DD');
         html += '   </div>';
@@ -194,7 +200,9 @@ var Calendar = {
 		console.log("yes");
 	},
 	Item_EventClick:function(eventData, itemData){
-		console.log("click");
+		console.log("item-event-click");
+		console.log(JSON.stringify(eventData));
+		window.open(encodeURI('infor.html?label='+eventData.label+'&at='+eventData.at.format(TimeScheduler.Options.LowerFormat)+'&type='+eventData.type));
 	},
 	getSectionNameByID:function(id){
 		for(var i=0;i<Calendar.Sections.length;i++){
