@@ -200,7 +200,9 @@ var Calendar = {
 		console.log("yes");
 	},
 	Item_EventClick:function(eventData, itemData){
-		console.log("click");
+		console.log("item-event-click");
+		console.log(JSON.stringify(eventData));
+		window.open(encodeURI('infor.html?label='+eventData.label+'&at='+eventData.at.format(TimeScheduler.Options.LowerFormat)+'&type='+eventData.type));
 	},
 	getSectionNameByID:function(id){
 		for(var i=0;i<Calendar.Sections.length;i++){

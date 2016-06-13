@@ -42,6 +42,7 @@ function readJson(file, dict) {
 		data.events.push({
 			"label" : "投递截至",
 			"at" : new Date(data.finish).format("yyyy-MM-dd hh:mm:ss"),
+			"type":"",
 			"classes" : 'item-event-submit-end'
 		});
 		data.end = new Date(max).format("yyyy-MM-dd hh:mm:ss");
@@ -137,6 +138,11 @@ gulp.task('jade', function () {
 	.pipe(jade())
 	.pipe(gulp.dest('dist/'));
 });
+gulp.task('jade_sub',function(){
+	return gulp.src('./src/jade/infor.jade')
+	.pipe(jade())
+	.pipe(gulp.dest('dist/'))
+})
 /******************* css to dist/css ***********/
 gulp.task('css', function () {
 	return gulp.src(['./src/css/*.css', './src/css/*.scss'])
@@ -153,7 +159,7 @@ gulp.task('js', function () {
 	.pipe(gulp.dest('dist/js/'));
 });
 /******************* build ***********/
-gulp.task('build', ['css', 'images', 'js', 'jade']);
+gulp.task('build', ['css', 'images', 'js','jade_sub','jade']);
 
 /******************* new json ***********/
 gulp.task('new', function () {
