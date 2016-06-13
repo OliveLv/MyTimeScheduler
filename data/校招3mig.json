@@ -2,6 +2,8 @@
 	"begin":"2016-6-6",
 	"finish":"2016-6-15",
 	"company":"校招3",
+	"job":"java开发",
+	"workplace":"北京",
 	"events": [{
 		"label": "投递",
 		"at": "2016-6-14"
